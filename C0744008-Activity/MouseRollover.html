@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Roll Over Event</title>
+    <script>
+        function MouseRollover(MyImage) {
+            MyImage.src = "images/Hello.jpg";
+
+        }
+
+        function MouseOut(MyImage) {
+            MyImage.src = "images/Image.png";
+        }
+
+    </script>
+</head>
+<body>
+    <div align="center">
+        <img src="images/Image.png" onMouseOver="MouseRollover(this)" onmouseout="MouseOut(this)" />
+    </div>
+</body>
+</html>
